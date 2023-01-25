@@ -1,0 +1,264 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+  font-size:16px ;
+}
+div,li {
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+}
+.info_title {
+  width: 80px;
+}
+
+.logo img{
+  width: 100%;
+}
+.global_nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Noto Serif JP', serif;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.global_nav_item {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+
+.global_nav_item1 {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.frame_area {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.frame_child{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.section_title {
+  font-weight: bold;
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.concept_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.concept_content {
+  width: 60%;
+  font-size: 16px;
+}
+.concept_image {
+  width: 35%;
+}
+
+.menu_section {
+  background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu_list_recommended {
+  padding-bottom: 50px;
+}
+.menu_key {
+  height: 100px;
+  background: url("../images/sample_key.jpg") no-repeat center;
+  background-size: cover;
+}
+.menu_item_title {
+  font-size: 18px;
+  font-family: 'Noto Serif JP', serif;
+}
+.menu_price {
+  font-family: 'Noto Serif JP', serif;
+  text-align: right;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.menu_item_price {
+  color: #42210b;
+  font-size: 18px;
+  text-align: right;
+}
+.recommended_menu_item{
+    width: 49%;
+    display: flex;
+    flex-direction:row-reverse ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+.recommended_menu_image {
+  width: 55%;
+  object-fit: cover;
+  height: 500px;
+}
+.recommended_menu_content {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+.caffee_menu_list_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+.coffee_menu {
+  background: #fff;
+  padding: 20px;
+}
+.caffee_menu_list_item {
+  width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px;
+}
+.caffee_menu_content {
+  width: 80%;
+  padding: 10px;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+.menu_item_image {
+  width: 55%;
+  object-fit: cover;
+  height: 300px;
+}
+.menu_item_content {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: .8rem 2rem;
+  z-index: 10;
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(127,136,182,1);
+  color: white;
+}
+
+.footer{
+   width: 100%;
+   background-color: #251e19;
+   height:75px;
+   padding-bottom:10px;
+   bottom: -75px ;
+ 
+   position: absolute;
+   
+}
+.footer_nav{
+  display:flex ;
+  justify-content:center ;
+  margin-bottom: 10px;
+
+}
+.footer_nav_item{
+  padding:0 10px ;
+  display: flex;
+  flex-direction:column ;
+  justify-content:center;
+  color:white ;
+  text-decoration:none ;
+  font-size:15px ;
+}
+.footer_logo{
+  width: 70px;
+}
+.footer_right{
+  color: white;
+  text-align:center ;
+  font-size:10px ;
+}
+
+

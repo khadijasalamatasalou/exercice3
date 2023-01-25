@@ -1,0 +1,6 @@
+function clickAlert() {
+    alert("Cliqué");
+  }
+
+
+  
